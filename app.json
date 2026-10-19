@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Pinky Paws",
+    "slug": "pinky-paws",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFF8F8",
+    "plugins": [
+      "expo-notifications",
+      "expo-status-bar"
+    ],
+    "android": {
+      "package": "com.pinkypaws.lembretes",
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
